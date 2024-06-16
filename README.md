@@ -6,7 +6,9 @@ Run containers . From the project directory:
 docker compose up
 ```
 
-Shutdown the application and remove containers:
+Visit Local host:
 ```
-docker-compose down
+Frontend: http://localhost:3000/
+Backend:  http://localhost:8000/
+
 ```
