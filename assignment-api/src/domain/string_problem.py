@@ -1,6 +1,3 @@
-    #######################################################################
-    # taken from:  https://louisabraham.github.io/notebooks/suffix_arrays.html
-    #######################################################################
 from itertools import zip_longest, islice
 from dataclasses import dataclass
 
@@ -104,5 +101,3 @@ class StringProblemEntity:
             k >>= 1
         return ans
 
-
-# print(StringProblemEntity("aaaaaa").maxValue())       
