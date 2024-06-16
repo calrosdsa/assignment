@@ -8,8 +8,7 @@ docker compose up
 
 Frontend:
 ```
-http://localhost:3000/
-
+http://localhost:3000/`
 ```
 Backend:  
 ```
