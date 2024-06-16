@@ -1,0 +1,16 @@
+
+services:
+  ui:
+    image: jmiranda21/assignment-ui:1.0
+    container_name: assignment-ui
+    ports:
+      - 3000:3000
+  api:
+    image: jmiranda21/assignment-api:1.0
+    container_name: assignment_api
+    environment:
+      - DJANGO_ENV=development
+      - DJANGO_PORT=8000
+    ports:
+      - ${DJANGO_PORT:-8000}:${DJANGO_PORT:-8000}
+  
