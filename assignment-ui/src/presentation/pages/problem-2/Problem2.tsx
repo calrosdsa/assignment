@@ -28,7 +28,7 @@ const Problem2 = () => {
               value={inputData}
               onChange={(e) => setInputData(e.target.value)}
               name="chess_problem"
-              id="input-1"
+              id="input-2"
               className="w-full p-2 border rounded-lg"
               rows={5}
             ></textarea>
@@ -43,7 +43,7 @@ const Problem2 = () => {
           </LoadingButton>
         </form>
         <h6 className="text-lg font-semibold mb-2">Output</h6>
-        <pre id="output-1" className="p-4 bg-gray-100 text-lg rounded-lg h-12 flex justify-center items-center">
+        <pre id="output-2" className="p-4 bg-gray-100 text-lg rounded-lg h-12 flex justify-center items-center">
           {state.data != null && state.data.maximum_value}
         </pre>
       </div>

@@ -1,7 +1,7 @@
 
 services:
   ui:
-    image: jmiranda21/assignment-ui:1.0
+    image: jmiranda21/assignment-ui:1.1
     container_name: assignment-ui
     ports:
       - 3000:3000
